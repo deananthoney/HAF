@@ -1,0 +1,80 @@
+/* Responsive  Width  HAF 2016-2017 Smart Phones Portrait and Landsacape**/
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+#middlebackground{/*background-color: red*/;width:100%;}
+
+#middlebackground p{font-family: Helvetica;font-size: 0.825em;color:#000 !important;width: 50%;}
+
+#middlebackground h6 {margin:auto;width:100%;}
+  
+.hands p{font-size:0.825em;}  
+  
+.donatebutton{ margin-top:-90px;}
+  
+.list p{margin:auto;width:100%;}
+  
+  .newcontent{
+    margin:auto;width:100%;
+  }
+  .content{margin:auto;width:100%;}
+  
+  .contenthands{margin:auto;width:100%;
+    
+  }
+  
+footer{ bottom:0;}
+}
+
+
+/**Ipads Tablet***/
+@media only screen and (max-width:768px) {
+
+#middlebackground{/*background-color: purple;*/}
+
+#middlebackground p{font-family: Helvetica;font-size: 0.825em;color:#000 !important;width: 50%;margin: auto;}
+
+#middlebackground h6 {margin:auto;text-align:center;padding: 10px;}
+.logo{margin-left:10px;}
+.donatebutton{ margin-top:-90px;}
+
+.hands p{font-size:0.825em;}
+
+.hands h2{font-size:0.825em;}
+
+.infographic > img{margin-left: 30%;margin:auto;}
+  
+.infographic  {padding:0;width:100%;}
+.list{margin:auto;font-size: 0.825em;width:100%;}
+.footer{}
+.container_inner {width:100%;}
+.column1, .column2,.column3,#text-4 { margin: 0 auto;}
+
+.column1 {display:inline;}
+  
+.column2{display:inline;}
+  
+.column3{display:inline;}
+  
+.textwidget{display:inline;}
+  
+}
+/*Desktops and Laptops */
+@media only screen and (min-width:1224px){
+#middlebackground{/*background-color: skyblue;*/}
+
+
+}
+
+
+/* Large Screens */
+@media only screen and (min-width:1824px) {
+#middlebackground{/*background-color: blue;*/}
+
+.hands{}
+}
+
+
+
+
